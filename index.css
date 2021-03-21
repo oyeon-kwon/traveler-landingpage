@@ -1,0 +1,28 @@
+.container,
+.snapped-area {
+    max-width: 100vw;
+    height: 100vh;
+}
+
+.container {
+    overflow: auto;
+    scroll-snap-type: y mandatory;
+}
+
+.snapped-area {
+    scroll-snap-align: start;
+}
+
+#scene_1 {
+    background-image: url(img/paris1.jpg);
+    background-size: 100vw 100vh;
+}
+
+#scene_2 {
+    background-image: url(img/paris2.jpg);
+    background-size: 100vw 100vh;
+}
+
+#scene_5 {
+    background-color: blue;
+}
