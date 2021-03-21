@@ -14,15 +14,65 @@
 }
 
 #scene_1 {
-    background-image: url(img/paris1.jpg);
-    background-size: 100vw 100vh;
-}
-
-#scene_2 {
     background-image: url(img/paris2.jpg);
     background-size: 100vw 100vh;
 }
 
+.airplane {
+    margin-top: 600px;
+    width: 50px;
+    position: relative;
+    animation-name: airplane;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes airplane {
+    0%   {left:380px; top:0px;}
+    100%  {left:900px; top:0px;}
+}
+
+.route_1 {
+    margin: 0 auto;
+    display: flex;
+}
+
+.title {
+    color: white;
+    /* margin-top: 500px auto;
+    display: flex; */
+}
+
+#scene_2 {
+    background-image: url(img/lyon.jpg);
+    background-size: 100vw 100vh;
+}
+
+#scene_3 {
+    background-image: url(img/roma.jpg);
+    background-size: 100vw 100vh;
+}
+
+#scene_4 {
+    background-image: url(img/barcelona.jpg);
+    background-size: 100vw 100vh;
+}
+
 #scene_5 {
+    background-image: url(img/london.jpg);
+    background-size: 100vw 100vh;
+}
+
+#scene_6 {
     background-color: blue;
+    background-size: 100vw 100vh;
+}
+
+.desc {
+    margin-top: 300px;
+    margin-left: 200px;
+    color: white;
+    width: 200px;
+    display: inline-block;
 }
